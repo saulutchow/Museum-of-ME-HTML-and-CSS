@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1cUjDYUV-H_emo4LTzEJKqHylXiLG6LUK">
+	<name>Places i am</name>
+	<gx:CascadingStyle kml:id="__managed_style_03F4F8CEA23B66A9D116">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.33333</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1E5C44E5533B66A9D114">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.22222</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0949B679F13B66A9D114">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E5C44E5533B66A9D114</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_03F4F8CEA23B66A9D116</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0D9C10AC793AE0F0DD70">
+		<name>university of lethbridge</name>
+		<LookAt>
+			<longitude>-112.8599042382812</longitude>
+			<latitude>49.67859723926063</latitude>
+			<altitude>878.97475788883</altitude>
+			<heading>-2.052397668727949</heading>
+			<tilt>26.61310041642158</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>806.6384944287711</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0949B679F13B66A9D114</styleUrl>
+		<Point>
+			<coordinates>-112.861231382565,49.67838500588368,887.7389576506995</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DF6A0E58E3AE0F2B83B">
+		<name>Penny office</name>
+		<LookAt>
+			<longitude>-112.8399290001007</longitude>
+			<latitude>49.69456060013232</latitude>
+			<altitude>916.2063412431241</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>519.7363422514172</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0949B679F13B66A9D114</styleUrl>
+		<Point>
+			<coordinates>-112.8399238768766,49.69459519778741,917.1005660414883</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

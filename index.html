@@ -7,49 +7,86 @@
     <title>Museum of ME </title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
 </head>
 <!--<body> is for the visible stuff-->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>"
 
 <body>
     <header>
-        <a href="index.html>">Museum of ME</a>
+        <a class="logo" href="index.html>">
+
+            <span clas="logo-sm">Museum of</span>
+            <span class="logo-lg">ME</span>
+        </a>
         <nav>
-            <ul>
-            <li><a href="Current.html>">Current stats</a></li>
-            <li><a href="Archives.html>">Archives</a></li>
-            <li><a href="logs.html">Logs</a></li>
-        
-        </ul>
-    </nav>
+            <ul class="primary-nav">
+                <li><a href="Current.html>">Current stats</a></li>
+                <li><a href="Archives.html>">Archives</a></li>
+                <li><a href="logs.html">Logs</a></li>
+
+            </ul>
+        </nav>
 
     </header>
 
 
     <main>
         <section class="yellow">
-            <h1>Frequently Use Items</h1>
-            <p>Description of my Items</p>
-            <a href="#">Button</a>
+            <div class="wrapper">
+                <h1>Frequently Use Items</h1>
+                <div class="grid-half">
+                    <div>
+                        <div>
+                            <model-viewe    r alt="slippers" src="assets/slippers.glb" camera-controls auto-rotate>
+                            </model-viewer>
+                        </div>
+                        <div>
+                            <p class="base-large">Description of my Items</p>
+                            <a href="#" class="bttn">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+
+        </section>
+        </div>
 
         </section>
         <section>
-            <section class="pink"> 
-            <h2>People I See</h2>
-            <img src="images/Vahe.png" alt="Vahe">
-            <img src="images/Khazhak.png"alt="Khazhak"> 
-            <img src="images/Abel.png" alt="Abel">
-            <img src="images/Manoug.png" alt="Manoug">
-            <img src="images/Simon.png" alt="Simon">
-            <img src="images/Hovsep.png" alt="Hovsep">
-           
-        </section>
-        <section class="green">
-            <h1>Places I am</h1>
-            <img src="images/place.png" alt="place">
-        </section>
+            <section class="pink">
+                <div class="wrapper">
+                    <h2>People I See</h2>
+                    <img src="images/Vahe.png" alt="Vahe">
+                    <img src="images/Khazhak.png" alt="Khazhak">
+                    <img src="images/Abel.png" alt="Abel">
+                    <img src="images/Manoug.png" alt="Manoug">
+                    <img src="images/Simon.png" alt="Simon">
+                    <img src="images/Hovsep.png" alt="Hovsep">
+                </div>
 
-        <section></section>
-        <footer></footer>
+            </section>
+            <section class="green">
+                <div class="wrapper">
+                    <h1>Places I am</h1>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1TejMX4yYleF8u8Wb9uFM_fxMcQiEfrY&ehbc=2E312F"
+                        width="640" height="480"></iframe>
+
+                    <audio controls>
+                        <source src="assets/audio/cat_meow.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+
+            </section>
+
+            <section>
+
+            </section>
+            <footer></footer>
     </main>
 
 </body>
